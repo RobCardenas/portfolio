@@ -1,0 +1,58 @@
+html, body {
+height: 100%;
+}
+
+body {
+	background-color: #e15258;
+}
+
+.navbar-brand {
+    background-image: url("../images/ourobboros-logo.png");
+    background-repeat: no-repeat;
+    height: 81px;
+    margin: 15px 0 15px 5%;
+    width: 161px;
+}
+
+.nav {
+    margin-bottom: 20px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover {
+    background-color: #222;
+}
+
+.img {
+	width: 81px;
+}
+
+
+.btn-default {
+	color: white;
+ 	background-color: #e15258;
+ 	border-color: #963a3e;
+}
+
+.btn-default:hover {
+	color: white;
+	background-color: #963a3e;
+	border-color: #6a2528;
+}
+
+.single-post {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.page-footer {
+	background-color: #222;
+	color: white;
+	padding: 30px 0 20px 0;
+	clear: both;
+}
+
+.container {
+	 min-height: 100%;
+	 height: auto !important;
+	 height: 100%;
+}
